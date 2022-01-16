@@ -1,0 +1,16 @@
+.gpt3__features {
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row;
+    width:100%;
+}
+
+.gpt3__features--heading{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+    justify-content:flex-start;
+    align-items:flex-start;
+    margin-right:5em;
+    text-align:left;
+}
