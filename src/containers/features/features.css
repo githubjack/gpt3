@@ -13,4 +13,46 @@
     align-items:flex-start;
     margin-right:5em;
     text-align:left;
+
 }
+.gpt3__features--heading h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+}
+.gpt3__features--heading p{
+    margin-top:2em;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 30px;
+    color: #FF8A71;
+  
+}
+
+.gpt3__features--container {
+    display:flex;
+    flex-direction:column;
+    flex:1.5;
+    justify-content:flex-start;
+    align-items:center;
+  }
+
+  @media screen and (max-width: 990px) {
+  
+    .gpt3__features {
+      flex-direction:column;
+    }
+    .gpt3__features--heading {
+        margin:0 0 2em 0;
+      }
+  }
+
+  @media screen and (max-width: 550px) {
+  
+    .gpt3__features--heading h1{
+        font-size:28px;
+        line-height:38px;
+      }
+  }
