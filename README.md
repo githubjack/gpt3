@@ -1,5 +1,6 @@
 # Getting Started with Create React App
 
+## Run the command npm run build  to generate a build folder to deploy on a web server
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
